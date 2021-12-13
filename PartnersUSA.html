@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+
+	<title>Static Map</title>
+
+	<head>
+
+
+		<meta charset="utf-8">
+		<style>
+		* {
+			font-family: "Helvetica Neue";
+		}
+		p {
+			font-size: 0.85em;
+		}
+
+		.state {
+			fill: #e3e3e3;
+			stroke: #FBF8F7;
+			stroke-width: 0.5;
+		}
+		
+		#state-48, #state-22, #state-05, #state-28, #state-47, #state-01, #state-13, #state-12, #state-21, #state-45, #state-37, #state-54, #state-51, #state-24, #state-10, #state-11, #state-724 {
+			fill: #C60E3D;
+		}
+		
+		#state-27, #state-19, #state-29, #state-55, #state-17, #state-18, #state-39, #state-26, #state-620{
+			fill: #76A9BC;
+		}
+		
+		#state-23, #state-33, #state-50, #state-44, #state-40, #state-20, #state-31, #state-46, #state-38, #state-56, #state-16, #state-30, #state-49, #state-02, #state-15{
+			fill: #C8CEDB;
+		}
+		
+		#state-25, #state-36, #state-42, #state-09, #state-34, #state-08, #state-53, #state-41, #state-32, #state-06, #state-04, #state-35{
+			fill: #203661;
+		}
+		
+		.wafflehouses{
+			fill: #fe1100;
+			stroke: #fe1100;
+			stroke-width: 3.0;
+		}
+		.text{
+			font-family: sans-serif;
+			font-size:  5px;
+			text-anchor:  middle;
+			text-decoration-color: #fe1100;
+		}
+		
+		</style>
+	</head>
+
+	<body>
+		<div id="map"></div>
+		<div id="map1"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+		<script src="https://d3js.org/topojson.v1.min.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-composite-projections/1.0.2/d3-composite-projections.min.js"></script>
+
+		<script src="partners.js"></script>
+		
+		<script src="spainportugal.js"></script>
+
+	</body>
+</html>
